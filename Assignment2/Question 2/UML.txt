@@ -2,9 +2,17 @@ Class name:
   1. TV
 
 Data fields:
-  1. channel: int
-  2. volumeLevel: int
-  3. on: boolean
+  1. -channel: int
+  2. -volumeLevel: int
+  3. -on: boolean
 
 Constructors/methods
-  1. TV()
+  1. +TV()
+  2. +turnOn(): void
+  3. +turnOff(): void
+  4. +setChannel(newChannel: int): void
+  5. +setVolume(newVolumeLevel: int): void
+  6. +channelUp(): void
+  7. +channelDown(): void
+  8. +volumeUp(): void
+  9. +volumeDown(): void
