@@ -1,0 +1,10 @@
+Class name:
+  1. TV
+
+Data fields:
+  1. channel: int
+  2. volumeLevel: int
+  3. on: boolean
+
+Constructors/methods
+  1. TV()
