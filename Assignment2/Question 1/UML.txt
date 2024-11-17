@@ -1,0 +1,12 @@
+Class name: 
+  1. Circle
+
+Data fields:
+  1. radius: double
+
+Constructors/methods:
+  1. Circle()
+  2. Circle(newRadius: double)
+  3. getArea(): dobule
+  4. getPerimeter(): double
+  5. setRadius(newRadius: double): void
