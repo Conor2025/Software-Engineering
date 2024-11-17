@@ -11,13 +11,13 @@ Step 1: Initialize Spring Boot Project
 Step 2: Design HTML template
   1. In the project explorer, go to 'src/main/resources/templates'
   2. Right click and create a file named 'greetings.html'
-  3. Populate 'greetings.html' with the HTML code from the HTML file
+  3. Populate 'greetings.html' with the HTML code from the HTML file in Question 1
 
 Step 3: Implement a Controller
   1. Go to 'src/main/java/com/example/mcview'
   2. Right-click, create a new java package 'controller'
   3. Inside 'controller', make a java class 'WebController'
-  4. In 'WebController.java', use the code from the java file to link 'greetings.html'
+  4. In 'WebController.java', use the code from the java file in Question 1 to link 'greetings.html'
 
 Steo 4: Accesss the Web Page
   1. Locate the main class named 'McviewApplication.java'
