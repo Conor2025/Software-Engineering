@@ -1,0 +1,35 @@
+Step 1: Generate a Spring Boot Project
+  1. Launch Visual Studio Code
+  2. Use 'Ctrl + Shift P' to activate the command palette
+  3. Type 'Spring Initializer: Generate a Maven Project' and confirm with Enter
+  4. Select Java as the programming language
+  5. Pick the most recent stable version of Spring Boot
+  6. Include dependencies, Spring Web, Thymeleaf
+  7. Define 'com.example' as the Group and 'randomquotedisplay' as the Artifact
+  8. Choose a directy for the project and let VS Code open it
+
+Step 2: Design HTML template
+  1. In the project explorer, go to 'src/main/resources/templates'
+  2. Right click and create a file named 'quotes.html'
+  3. Populate 'quotes.html' with the HTML code from the HTML file in Question 4
+
+Step 3: Develop the Project Structure
+  1. Go to 'src/main/java/com/example/randomquotedisplay'
+  2. Right-click, create a new java package 'quoteDisplayModel'
+  3. Inside 'quoteDisplayModel' create a java class 'Quote'
+  4. In 'Quote.java' use the code from the correspondng java file in Question 2
+
+Step 4: Set up the Controller
+  1. Go to 'src/main/java/com/example/randomquotedisplay'
+  2. Right-click, create a new java package 'quoteDisplayController'
+  3. Inside 'quoteDisplayController' create a java class 'QuoteDisplayController'
+  4. In 'QuoteDisplayController.java' use the code from the corresponding javaa file in Question 2
+
+Step 5: Accesss the Web Page
+  1. Locate the main class named 'RandomquoteDisplayApplication.java'
+  2. Right-click the file and choose 'Run Java'
+  3. Observe the console until you see the server start message
+
+Step 6:
+  1. Naviagate to 'http://localhost:8080/' in a web browser
+  2. View the welcome message and content from 'quotes.html'
