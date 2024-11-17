@@ -1,1 +1,16 @@
+Step 1: Initialize a Git Repository
+  1. Create a new directory named 'git-branching-exercise' and navigate to it in your command-line interface
+  2. Initialize a new Git repository in this directory by running the command: git init
 
+Step 2: Create and Commit Files
+  1. Create a file called README.md and add some content to it
+  2. Stage the change by running the command: git add .
+  3. Commit the the staged change by running the command: git commit -m "Initial commit"
+
+Step 3: Create Branches
+  1. Create a new branch named 'feature-1' by running the command: git checkout -b feature-1
+  2. Create a new branch named 'feature-2' by running the command: git checkout -b feature-2
+  3. Switch to feature-1 branch by running the command: git switch feature-1
+
+Step 4: Deleting a Branch
+  1. Switch back to he master branch by running the command: git switch master
