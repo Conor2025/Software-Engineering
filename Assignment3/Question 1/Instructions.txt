@@ -8,7 +8,7 @@ Step 1: Initialize Spring Boot Project
   7. Define 'com.example' as the Group and 'mcview' as the Artifact
   8. Choose a directy for the project and les VS Code open it
 
-Step 2: Craft a view template
+Step 2: Design HTML template
   1. In the project explorer, go to 'src/main/resources/templates'
   2. Right click and create a file named 'greetings.html'
   3. Populate 'greetings.html' with the HTML code from the HTML file
