@@ -1,1 +1,26 @@
+Step 1: Initialize a Git Repository
+  1. Create a new directory named 'git-file-deletion' and navigate to it in your command-line interface
+  2. Initialize a new Git repository in this directory by running the command: git init
 
+Step 2: Create and Commit Files
+  1. Create three new files: file1.txt, file2.txt, file3.txt, and add some content to each one
+  2. Stage all files by running the command: git add .
+  3. Commit the staged changes by running the command: git commit -m "Initial commit"
+
+Step 3: Delete from Working Area
+  1. Delete file1.txt using your operating system's file management system (i.e., not using Git)
+  2. Confirm file1.txt has been deleted by running the command: git status
+  3. Complete the deletion by running the command: git rm file1.txt
+  4. Commit the staged changes by running the command: git commit -m "deleted"
+
+Step 4: Unstaging a Deleted File
+  1. Delete file2.txt in your working directory by running the command: rm file2.txt
+  2. Stage the deletion by running the command: git add .
+  3. Unstage the deletion by running the command: git reset --soft HEAD~1
+  4. Check that file2.txt is deleted by running the command: git status
+
+Part 5: Deleting a Staged File
+  1. Delete file.3txt in your working directory by running the command: rm file3.txt
+  2. Stage the deletion by running the command: git add .
+  3. Commit the deletion by running the command git commit -m "deleted!"
+  4. Restore file3.txt back to the working directory by running the command: git reset --soft HEAD~1
