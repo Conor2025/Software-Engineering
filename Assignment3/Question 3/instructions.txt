@@ -23,7 +23,7 @@ Step 4: Set up the Controller
   1. Go to 'src/main/java/com/example/bookstore'
   2. Right-click, create a new java package 'literatureController'
   3. Inside 'literatureController' create a java class 'LiteratureController'
-  4. In 'LiteratureController.java' use the code from the corresponding javaa file in Question 3
+  4. In 'LiteratureController.java' use the code from the corresponding java file in Question 3
 
 Step 5: Accesss the Web Page
   1. Locate the main class named 'BookstoreApplication.java'
