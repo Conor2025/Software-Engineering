@@ -1,0 +1,15 @@
+Class name:
+  1. Course
+
+Data fields:
+  1. -coursename: String
+  2. -students: String[]
+  3. -numberOfStudents: int
+
+Constructors/methods:
+  1. +Course(coursename: String)
+  2. +getCourseName(): String
+  3. +addStudent(student: String): void
+  4. +dropStudent(student: String): void
+  5. +getStudent(): String[]
+  6. +getNumberOfStudents(): int
