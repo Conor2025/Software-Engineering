@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>User Login Status</title>
+</head>
+<body>
+    <h1>Welcome to the Login Status Page</h1>
+    
+    <div th:if="${isLoggedIn}">
+        <p>You are logged in. Welcome back!</p>
+    </div>
+    
+    <div th:unless="${isLoggedIn}">
+        <p>You are not logged in. Please sign in to continue.</p>
+    </div>
+</body>
+</html>
