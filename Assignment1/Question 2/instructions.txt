@@ -14,13 +14,13 @@ Step 3: Delete from Working Area
   4. Commit the staged changes by running the command: git commit -m "deleted"
 
 Step 4: Unstaging a Deleted File
-  1. Delete file2.txt in your working directory by running the command: rm file2.txt
+  1. Delete file2.txt in your working directory by running the command: git rm file2.txt
   2. Stage the deletion by running the command: git add .
   3. Unstage the deletion by running the command: git reset --soft HEAD~1
   4. Check that file2.txt is deleted by running the command: git status
 
 Part 5: Deleting a Staged File
-  1. Delete file.3txt in your working directory by running the command: rm file3.txt
+  1. Delete file.3txt in your working directory by running the command: git rm file3.txt
   2. Stage the deletion by running the command: git add .
   3. Commit the deletion by running the command git commit -m "deleted!"
   4. Restore file3.txt back to the working directory by running the command: git reset --soft HEAD~1
