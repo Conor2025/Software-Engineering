@@ -3,7 +3,38 @@ Step 1: Initialize a Git Repository
   2. Initialize a new Git repository in this directory by running the command: git init
 
 Step 2: Create and Commit Files
-  1. Create a new file named README.md inside your git-assignment directory
-  2. Add some text to README.md such as 'hello world'
-  3. Stage the change by running the command: git add .
-  4. Commit the staged changes with a commmit message using the command: git commit -m "Initial commit"
+  1. Create a file called README.md and add some content to it
+  2. Stage the change by running the command: git add .
+  3. Commit the the staged change by running the command: git commit -m "Initial commit"
+
+Step 3: Creating Branches
+  1. Create and switch to a new branch called 'feature-rebase' by running the command: git checkout -b feature-rebase
+  2. Make some changes to README.md
+  3. Stage the chnage by running the command: git add .
+  4. Commit the staged change by running the command: git commit -m "updated"
+  5. Switch back to the master branch by running the command: git switch master
+  6. Make different changes to README.md
+  7. Stage the chnage by running the command: git add .
+  8. Commit the staged change by running the command: git commit -m "updated again"
+
+Part 4: Understanding Rebase
+  1. Switch back to the feature-rebase branch by running the command: git switch feature-rebase
+  2. Rebase feature-rebase onto master by running the command: git rebase master
+  3. Resolve any conflicts if they arise
+
+Part 5: Using Cherry-Pick
+  1. Create and switch to a new branch called 'featue-cherry' by running the command: git checkout -b feature-cherry
+  2. Make several changes, add, modify, and delete files, commit all changes using the established git commands
+  3. Switch back to the master branch by running the command: git switch master
+  4. Find the different commit ids by running the command: git log
+  5. Apply one of the commits from feature cherry onto master by running the command: git cherry-pick commit-id
+  6. Note: You can pick any one of the commits to use
+
+Part 6: Working with Stash
+  1. Make changes to README.md but don't stage or commit them
+  2. Save these changes by running the command: git stash push
+  3. Apply the stashed changes back to your working directory by running the command: git stash pop
+
+Part 7: Using Reflot to Explore History
+  1. Execute a few more operations such as commit, branch, rebase, etc.
+  2. View the history of your HEAD pointer by running the command: git reflog
