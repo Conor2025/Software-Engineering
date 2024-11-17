@@ -6,7 +6,7 @@ Step 1: Generate a Spring Boot Project
   5. Pick the most recent stable version of Spring Boot
   6. Include dependencies, Spring Web, Thymeleaf
   7. Define 'com.example' as the Group and 'demo' as the Artifact
-  8. Choose a directy for the project and les VS Code open it
+  8. Choose a directy for the project and let VS Code open it
 
 Step 2: Design HTML template
   1. In the project explorer, go to 'src/main/resources/templates'
