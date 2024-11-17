@@ -14,3 +14,23 @@ Step 3: Create Branches
 
 Step 4: Deleting a Branch
   1. Switch back to he master branch by running the command: git switch master
+  2. Delete the branch feature-2 by running the command: git branch -D feature-2
+  3. Verify that feature-2 has been deleted by running the command: git branch
+
+Part 5: Understanding HEAD
+  1. Create a new branch named 'feature-3' by running the command: git checkout -b feature-3
+  2. Make some changes to README.md
+  3. Stage the chnage by running the command: git add .
+  4. Commit the staged change by running the command: git commit -m "change"
+  5. Show where the HEAD is pointing to by running the command: git log
+
+Part 6: Detached HEAD State
+  1. Check out a previous commit using its commit hash by running the command: git checkout <commit hash>
+  2. Note: In place of <commit hash> you put the commit hash number that appears when running the command: git log
+  3. Make some changes to README.md
+  4. Stage the chnage by running the command: git add .
+  5. Commit the staged change by running the command: git commit -m "changed"
+  6. Verify you are in a detached HEAD state by running the command: git status
+  7. Switch back to the master branch by running the command: git switch master
+  8. Verify where the HEAD is pointing to by running the command: git log
+  
