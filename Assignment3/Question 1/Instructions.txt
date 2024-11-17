@@ -1,0 +1,29 @@
+Step 1: Initialize Spring Boot Project
+  1. Launch Visual Studio Code
+  2. Use 'Ctrl + Shift P' to activate the command palette
+  3. Type 'Spring Initializer: Generate a Maven Project' and confirm with Enter
+  4. Select Java as the programming language
+  5. Pick the most recent stable version of Spring Boot
+  6. Include dependencies, Spring Web, Spring Boot Dev Tools, Thymeleaf
+  7. Define 'com.example' as the Group and 'mcview' as the Artifact
+  8. Choose a directy for the project and les VS Code open it
+
+Step 2: Craft a view template
+  1. In the project explorer, go to 'src/main/resources/templates'
+  2. Right click and create a file named 'greetings.html'
+  3. Populate 'greetings.html' with the HTML code from the HTML file
+
+Step 3: Implement a Controller
+  1. Go to 'src/main/java/com/example/mcview'
+  2. Right-click, create a new java package 'controller'
+  3. Inside 'controller', make a java class 'WebController'
+  4. In 'WebController.java', use the code from the java file to link 'greetings.html'
+
+Steo 4: Accesss the Web Page
+  1. Locate the main class named 'McviewApplication.java'
+  2. Right-click the file and choose 'Run Java'
+  3. Observe the console until you see the server start message
+
+Step 5:
+  1. Naviagate to 'http://localhost:8080/' in a web browser
+  2. View the welcome message and content from 'greetings.html'
