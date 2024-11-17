@@ -7,3 +7,23 @@ Step 1: Generate a Spring Boot Project
   6. Include dependencies, Spring Web, Thymeleaf
   7. Define 'com.example' as the Group and 'demo' as the Artifact
   8. Choose a directy for the project and let VS Code open it
+
+Step 2: Design HTML template
+  1. In the project explorer, go to 'src/main/resources/templates'
+  2. Right click and create a file named 'index.html'
+  3. Populate 'index.html' with the HTML code from the HTML file in Question 6
+
+Step 3; Create the Controller
+  1. Go to 'src/main/java/com/example/demo'
+  2. Right-click, create a new java package 'loginStatusController'
+  3. Inside 'loginStatusController' create a java class 'LoginStatusController'
+  4. In 'LoginStatusController.java' use the code from the corresponding java file in Question 6
+
+Step 4: Accesss the Web Page
+  1. Locate the main class named 'DemoApplication.java'
+  2. Right-click the file and choose 'Run Java'
+  3. Observe the console until you see the server start message
+
+Step 5:
+  1. Naviagate to 'http://localhost:8080/' in a web browser
+  2. View the welcome message and content from 'index.html'
