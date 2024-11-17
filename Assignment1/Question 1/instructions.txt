@@ -1,3 +1,27 @@
 Step 1: Initialize a Git Repository
   1. Create a new directory named 'git-assignment' and navigate to it in your command-line interface
   2. Initialize a new Git repository in this directory by running the command: git init
+
+Step 2: Create and Commit Files
+  1. Create a new file named README.md inside your git-assignment directoy
+  2. Add some text to README.md such as 'hello world'
+  3. Stage the change by running the command: git add .
+  4. Commit the staged changes with a commmit message using the command: git commit -m "Add README.md"
+
+Step 3: Create a New Branch
+  1. Creat a new branch named 'feature-x' by running the command: git checkout -b feature-x
+  2. Create a new file named feature-x.txt and add some content to it
+  3. Stage the change by running the command: git add .
+  4. Commit the staged changes by running the command: git commit -m "Add feautre-x.txt"
+
+Step 4: Merge Branches
+  1. Switch back to the master branch by running the command: git switch master
+  2. Merge the feature-x and main branch by running the command: git merge feature-x
+  3. Resolve any merge conflicts if they arise
+  4. Stage the change by running the command: git add .
+  5. Commit the staged change by running the command: git commit -m "merged"
+
+Part 5: Create Commit History
+  1. Make additional changes to README.md and feature-x.txt
+  2. Stage the change by running the command: git add .
+  3. Commit the staged chnage by running the command: git commit -m "well done"
