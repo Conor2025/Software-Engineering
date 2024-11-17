@@ -1,0 +1,3 @@
+Step 1: Initialize a Git Repository
+  1. Create a new directory named 'git-assignment' and navigate to it in your command-line interface
+  2. Initialize a new Git repository in this directory by running the command: git init
