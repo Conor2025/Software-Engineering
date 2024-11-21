@@ -1,0 +1,1 @@
+Spring Boot is an open source java framework which makes it incredible easy to stand alone Spring-based applications that you can just run.
