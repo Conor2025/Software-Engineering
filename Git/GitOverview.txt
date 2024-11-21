@@ -1,0 +1,4 @@
+What is Git?
+  * GIT is a free, open source, version controll system that allows developers to track changes in their software/code.
+  * GIT can track who made the changes, when the changes were made, and what the changes were. 
+  * GIT can also allow for a developer to go back to any previous code they made. 
