@@ -1,0 +1,7 @@
+Commands:
+  1. Know what directory you are in, use command: pwd
+  2. Create a new directory, use command: mkdir "name of new directory" Example: mkdir git-new
+  3. Enter a directory, use command: cd "name of directory" Example: cd git-new
+  4. Create files in a directory, use command: touch "filename" Example: touch README.md
+  5. Copy file, use command: cp "file to be copied" "where to be copied" Example cp README.md git-more
+  6. Delete file, use command: rm "filename" Example: rm README.md
