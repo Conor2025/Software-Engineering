@@ -1,0 +1,15 @@
+Maven allows a developer to understand the complete state of a project in the shortet period of time.
+Does so by:
+  1. Making the build process easy.
+  2. Providing a uniform build system.
+  3. Providing quality project information.
+  4. Providing guidelines for best practices development.
+  5. Allowing transparent migration to new features.
+
+Features of a Maven Project
+  1. pom - project object model
+  2. src - source directory
+  3. java - packages and classes organized
+  4. resources - XML files, images, etc
+  5. webapp - Java Server Pages (JSP) files
+  6. test - Java and resources files for testing purposes
