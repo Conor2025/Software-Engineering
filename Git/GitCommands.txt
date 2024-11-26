@@ -5,3 +5,10 @@ Commands:
   4. Create files in a directory, use command: touch "filename" Example: touch README.md
   5. Copy file, use command: cp "file to be copied" "where to be copied" Example cp README.md git-more
   6. Delete file, use command: rm "filename" Example: rm README.md
+  7. Initialize git repositoy, use command: git init
+  8. Stage change to a file, use command: git add .
+  9. Commit staged changed, use command: git commit -m "text"
+  10. Check the status of your files, use command: git status
+  11. Create and switch to a new branch, use command: git checkout -b branchname Example: git checkout -b feature-branch
+  12. Switch to any branch, use command: git switch branchname Example: git switch master
+  13. Verify where the HEAD is pointing to, use command: git log
