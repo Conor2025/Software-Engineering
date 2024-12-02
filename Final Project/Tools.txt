@@ -1,1 +1,3 @@
 Here are the list of tools and references we used to help create our final project
+  1. Spring Boot
+  2. Thymeleaf
