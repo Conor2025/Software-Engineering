@@ -18,3 +18,11 @@ Creating a Spring Boot application within Maven
   * Group Id: Identifies the organization (ex: com.Itp)
   * Artifact Id: Determines the name of the application (ex: hello-spring)
   * Dependency: Software that your application depends on
+
+Maven Standard Directory Layout
+  * src/main/java: source code
+  * src/main.resources
+    1) static: images, CSS, static HTML
+    2) templates: dynamic HTML templates
+    3) application.properties: application properties and settings
+  * src/test/java: application tests
