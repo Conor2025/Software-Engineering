@@ -13,3 +13,8 @@ Features of a Maven Project
   4. resources - XML files, images, etc
   5. webapp - Java Server Pages (JSP) files
   6. test - Java and resources files for testing purposes
+
+Creating a Spring Boot application within Maven
+  * Group Id: Identifies the organization (ex: com.Itp)
+  * Artifact Id: Determines the name of the application (ex: hello-spring)
+  * Dependency: Software that your application depends on
