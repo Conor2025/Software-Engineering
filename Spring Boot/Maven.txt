@@ -26,3 +26,11 @@ Maven Standard Directory Layout
     2) templates: dynamic HTML templates
     3) application.properties: application properties and settings
   * src/test/java: application tests
+
+Command: mvn spring-boot:run
+  * Compile your application's code
+  * Runs the compiled code
+
+Command: mvn clean spring-boot:run
+  * Removes previously compiled code
+  * Compiles code and runs it
