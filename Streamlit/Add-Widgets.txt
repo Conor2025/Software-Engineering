@@ -1,0 +1,13 @@
+Streamlit offers a variety of widgets that can be used to create interactive elements
+
+1. Text input:
+  user_input = st.text_input("Enter your name")
+  st.write('Your name is ', user_input)
+
+2. Slider
+  age = st.slider("Choose your age", 1, 100)
+  st.write("You are ", age, " years old")
+
+3. Button
+  if st.button('Say Hello'):
+    st.write('Hello There!')
