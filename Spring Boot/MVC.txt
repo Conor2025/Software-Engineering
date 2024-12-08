@@ -1,4 +1,18 @@
 Model View Controller
   1. View: what the user sees
   2. Model: data needed by the view
-  3. Controller: responds to requests by managing Model and presenting View
+  3. Controller: responds to requests by managing Model and presenting View. Glues Model and View together
+
+localhost:8080/grades
+  * Host: localhost
+  * Port: 8080
+  * Path: grades
+
+Spring Boot uses annotations which add logic to an application without any code
+
+1. Annotation: @Controller
+  * Converts a class into a controller
+
+2. Annotation: @GetMapping
+  * Converts a method into a handler method
+  * The handler method can accept GET requests
