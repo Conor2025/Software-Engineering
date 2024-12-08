@@ -28,9 +28,7 @@ Maven Standard Directory Layout
   * src/test/java: application tests
 
 Command: mvn spring-boot:run
-  * Compile your application's code
-  * Runs the compiled code
+  * Compiles your code and runs it
 
 Command: mvn clean spring-boot:run
-  * Removes previously compiled code
-  * Compiles code and runs it
+  * Compiles and runs your code from scratch
