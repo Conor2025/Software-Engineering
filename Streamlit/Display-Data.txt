@@ -1,3 +1,15 @@
 Streamlit can display data in a neat format using its built-in functions
 
 1. Display Data Frames
+  import pandas as pd
+  data = pd.DataFrame({
+      'first column': [1, 2, 3, 4],
+      'second column': [10, 20, 30, 40]
+  })
+  st.dataframe(data)
+
+2. Plot Data
+  import matplotlib.pyplot as plt
+  fig, ax = plt.subplots()
+  ax.hist(data['second column'], bins=5)
+  st.pyplot(fig)
