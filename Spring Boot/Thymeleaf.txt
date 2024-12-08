@@ -1,0 +1,14 @@
+Thymeleaf is what's used to merge the Model data with the View.
+
+Variable Expression: Executes on a Model Attribute
+Syntax: ${age}
+  - Dollar sign
+  - Curly Brackets
+  - Model Attribute
+
+A Variable Expression can be used to:
+  - Return a model attribute or a value that derives from it.
+  - Execute a condition based on a model attribute.
+  - Execute a loop based on a model attribute. 
+  - Execute a utility method on a model attribute.
+  
