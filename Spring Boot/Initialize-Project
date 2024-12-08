@@ -1,0 +1,13 @@
+Step 1: Use the command palette (Crtl + Shift + P) in Visual Studio Code.
+
+Step 2: Run the "Spring Initalizr: Create a Maven Project" command.
+
+Step 3: Follow these prompts to generate your Spring Boot Project.
+  * Project type: Maven
+  * Language: Java
+  * Spring Boot version: latest stable version
+  * Group: com.example
+  * Artifact: vscode-demo
+  * Packaging: Jar
+  * Java version: 17
+  * Dependencies: Spring Web, Spring Boot Dev Tools, Thymeleaf 
