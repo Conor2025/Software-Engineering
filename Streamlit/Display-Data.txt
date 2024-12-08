@@ -1,0 +1,3 @@
+Streamlit can display data in a neat format using its built-in functions
+
+1. Display Data Frames
