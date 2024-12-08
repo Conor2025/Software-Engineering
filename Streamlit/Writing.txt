@@ -1,4 +1,8 @@
-Import Streamlit: At the top of your 'app.py', import Streamlit:
+1) Import Streamlit 
+At the top of your 'app.py', import Streamlit:
   import streamlit as st
 
-Add Title and Text
+2) Add Title and Text
+Use the 'st.title' and 'st.write' functions to add text to your app:
+  st.title('My First Streamlit App')
+  st.write('This is a sample Streamlit App')
