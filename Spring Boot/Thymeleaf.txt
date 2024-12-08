@@ -1,7 +1,7 @@
 Thymeleaf is what's used to merge the Model data with the View.
 
 Variable Expression: Executes on a Model Attribute
-Syntax: ${age}
+Syntax: ${age} Example: "${grade.score}"
   - Dollar Sign
   - Curly Brackets
   - Model Attribute
@@ -13,14 +13,31 @@ A Variable Expression can be used to:
   - Execute a utility method on a model attribute.
 
 Selection Expression: Selects a field from a previously bound object
-Syntax: *{field}
+Syntax: *{field} Example: "*{score}" 
   - Star Sign
   - Curly Brackets
   - Field
+
+Link Expression: URL endpoint or path to a resource
+Syntax: @{/} Example: "@{/grades-stylesheet.css}"
+  - At Sign
+  - Curly Brackets
+  - Path to resource
 
 Conditionals (Spring_Boot_2.pdf slides 90-100)
   * th:if renders an element if a condition is true
   * th:unless renders an element a condition is false
   * A ternary operator returns a value based on a condition
+
+Thymeleaf loops (Spring Boot -8.pdf)
+  Syntax: th:each = "element: ${collection}"
+    * element is a temporary variable
+    * collection is the object you have created
   * th:switch compares a value against a list of cases & renders the case match
+
+Creating a form (Spring Boot -9.pdf)
+  Step 1: Bind the form to an object
+  Syntax: th:object = "${grade}"
+  Step 2: Bind each form input to a field in the object
+  Syntax: th:field = "*{name}"
   
