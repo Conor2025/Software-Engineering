@@ -1,0 +1,3 @@
+1) To finally run your app, you need to start the server.
+Start the Server: Open your terminal, navigate to the folder where your 'app.py' is located and type:
+  streamlit run app.py
