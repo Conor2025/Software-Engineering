@@ -16,3 +16,9 @@ Spring Boot uses annotations which add logic to an application without any code
 2. Annotation: @GetMapping
   * Converts a method into a handler method
   * The handler method can accept GET requests
+
+Storing Data in the Model Attribute
+  * A Model attribute maps to a piece of data
+model.addAttribute("name", data)
+  - Name of Attribute
+  - The data it stores
