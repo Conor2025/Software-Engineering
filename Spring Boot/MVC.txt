@@ -1,0 +1,4 @@
+Model View Controller
+  1. View: what the user sees
+  2. Model: data needed by the view
+  3. Controller: responds to requests by managing Model and presenting View
