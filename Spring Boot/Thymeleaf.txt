@@ -2,7 +2,7 @@ Thymeleaf is what's used to merge the Model data with the View.
 
 Variable Expression: Executes on a Model Attribute
 Syntax: ${age}
-  - Dollar sign
+  - Dollar Sign
   - Curly Brackets
   - Model Attribute
 
@@ -11,4 +11,16 @@ A Variable Expression can be used to:
   - Execute a condition based on a model attribute.
   - Execute a loop based on a model attribute. 
   - Execute a utility method on a model attribute.
+
+Selection Expression: Selects a field from a previously bound object
+Syntax: *{field}
+  - Star Sign
+  - Curly Brackets
+  - Field
+
+Conditionals (Spring_Boot_2.pdf slides 90-100)
+  * th:if renders an element if a condition is true
+  * th:unless renders an element a condition is false
+  * A ternary operator returns a value based on a condition
+  * th:switch compares a value against a list of cases & renders the case match
   
