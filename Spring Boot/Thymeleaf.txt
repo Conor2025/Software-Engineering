@@ -19,7 +19,7 @@ Syntax: *{field} Example: "*{score}"
   - Field
 
 Link Expression: URL endpoint or path to a resource
-Syntax: @{/} Example: "@{/grades-stylesheet.css}"
+Syntax: @{/} Example: th:href="@{/grades-stylesheet.css}"
   - At Sign
   - Curly Brackets
   - Path to resource
