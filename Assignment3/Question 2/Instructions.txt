@@ -1,3 +1,5 @@
+SPRING BOOT APPLICATION FOR TV SHOWS DISPLAY
+
 Step 1: Generate a Spring Boot Project
   1. Launch Visual Studio Code
   2. Use 'Ctrl + Shift P' to activate the command palette
