@@ -3,9 +3,11 @@ package com.example.demo.tvShowController;
 import com.example.demo.tvModel.Show;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.stereotype.Controller;
 import java.util.List;
 import java.util.Arrays;
 
+@Controller
 public class ShowController {
     @GetMapping("/")
     public String index(Model model) {
